@@ -52,7 +52,7 @@ class Kkd_Pff_Rave_Admin {
 
 		function kkd_pff_rave_student_page() {
 			echo "<h1>Student Section</h1>";
-			echo "<h3>You can upload student data in this section. <span style='color:green'>Only CSV format is allowed.</span><br> Download sample format <a href='../wp-content/plugins/rave-wordpress-payment-forms-with-validation-master/assets/csv_format/sample_format.csv' download>here</a> for easy upload or save your file to <span style='color:green'>.CSV</span> before uploading.</h3>";
+			echo "<h3>You can upload student data in this section. <span style='color:green'>Only CSV format is allowed.</span><br> Download sample format <a href='../wp-content/plugins/rave-payment-form-for-schools-master/assets/csv_format/sample_format.csv' download> here </a> for easy upload or save your file to <span style='color:green'>.CSV</span> before uploading.</h3>";
 
 			//form to uplodd the Excel sheet to DB
 			$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
